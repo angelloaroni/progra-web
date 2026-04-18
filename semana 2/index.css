@@ -40,3 +40,22 @@ button{
 #boton-seguir{
     background-color: rgb(45, 45, 236);
 }
+/*
+Pseudo clase, ejempplo de hover, que se activa cuando el mouse esta sobre el elemento, 
+en este caso el enlace, y cambia su color a rojo
+*/
+a:hover{
+    color: red;
+}
+/*
+Ejemplo de sub elemento, en este caso se edita la primera linea y letra de p, que se le asigna
+un tamaño de letra de 22px y negrita
+*/
+p::first-line{
+    font-weight: bold;
+    font-size: 22px;
+}
+p::first-letter{
+    font-size: 50px;
+    color: rgb(68, 40, 4);
+}
