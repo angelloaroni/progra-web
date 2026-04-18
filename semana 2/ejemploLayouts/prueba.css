@@ -1,0 +1,8 @@
+/*el flex sirve para que cada elemento ocupe un mismo espacio en el ancho
+*/
+main{
+    display: flex;
+}
+section{
+    display: flex;
+}
