@@ -1,0 +1,42 @@
+/*
+En caso de querere usar una fuente de letra que no este en el ide, podemos llamarla buscando
+google fonts, y copiando el link que nos da en el archivo css
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+hmtl, body{
+    background-color:antiquewhite;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1{
+    color: rgb(68, 40, 4);
+    font-size: 60px;
+    text-align: center;
+}
+h2,h3{
+    color: rgb(68, 40, 4);
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+#parrafo1{
+    font-size: 30px;
+}
+
+button{
+    background-color: rgb(109, 109, 251);
+    border-radius: 4px;
+    border-color: black;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+#boton-seguir{
+    background-color: rgb(45, 45, 236);
+}
