@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <h1>Contáctanos</h1>
+    <p>Llena el formulario y nos pondremos en contacto contigo.</p>
+    <form action="index.html">
+        <label>Nombre</label> 
+        <input type="text" name="nombre"> <!--el name es para identificar el campo, es importante para luego procesar los datos-->
+        <br> <!--salto de linea-->
+        <label>Apellidos</label>
+        <input type="text" name="apellidos">
+        <br>
+        <label>Correo electrónico</label>
+        <input type="email" name="correo">
+        <br>
+        <label>Numero de telefono</label>
+        <input type="tel" name="telefono">
+        <br>
+        <label>Género</label>
+        <!--si se trata de radio, ambas deben tener el mismo name, para que solamente se pueda seleccionar una a la vez-->
+        <input type="radio" name="genero">Masculino
+        <input type="radio" name="genero">Femenino
+        <br>
+        <!--en este caso el name es irrelevante (por ahora, luego si importa en realidad xd)-->
+        <label>Intereses</label>
+        <input type="checkbox" name = "int">Deportes
+        <input type="checkbox" name = "int">Ciencias
+        <input type="checkbox" name = "int">Anime
+        <input type="checkbox" name = "int">Videojuegos
+        <br>
+        <input type="submit" value="Enviar"> 
+    </form>
+</body>
+</html>
