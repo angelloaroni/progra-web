@@ -14,6 +14,7 @@
             flex-direction: column;
             align-items: center;
             padding: 50px;
+            font-size: 16px;
         }
         .caja {
             width: 300px;
@@ -46,13 +47,13 @@
 
     <div class="controles">
         <button id="btnColor" onclick="cambiarColorCaja()">Cambiar Color</button>
-        <button id="btnSize">Aumentar Tamaño</button>
+        <button id="btnSize" onclick="aumentarTamaño()">Aumentar Tamaño</button>
         <button id="btnFondo">Modo Claro/Oscuro</button>
     </div>
 
     <div class="input-group">
         <input type="text" id="inputTexto" placeholder="Escribe algo aquí...">
-        <button id="btnActualizar">Actualizar Texto</button>
+        <button id="btnActualizar" onclick="actualizarTexto()">Actualizar Texto</button>
     </div>
 
     <script>
